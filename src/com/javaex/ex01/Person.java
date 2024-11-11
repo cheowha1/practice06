@@ -7,13 +7,12 @@ public class Person {
 	
 	// 생성자
 	public Person() {
-		System.out.println("Person() 생성자 호출");
 	}
 	
 	public Person(String name, String hp) {
 		this.name = name;
 		this.hp = hp;
-		System.out.print("Person(String, int) 생성자 호출");
+
 		
 	}
 	
@@ -32,7 +31,7 @@ public class Person {
 	
 	// 일반 메서드
 	public void showInfo() {
-		System.out.println("이름:" + name + ", 핸드폰:" + hp);
+		System.out.println("#이름:" + name + ", #핸드폰:" + hp);
 	}
 	
 }
